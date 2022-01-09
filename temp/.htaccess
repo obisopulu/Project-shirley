@@ -1,0 +1,5 @@
+RewriteEngine On
+
+ErrorDocument 404 /shirleys/404.htm
+ErrorDocument 500 /shirleys/404.htm
+

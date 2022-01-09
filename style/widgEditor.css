@@ -1,0 +1,160 @@
+.widgToolbar a
+{
+	display: block;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-indent: -1000em;
+	text-decoration: none;
+}
+
+.widgToolbar a:hover
+{
+	background-position: 0 -30px;
+}
+
+.widgToolbar a:active
+{
+	margin-top: 2px;
+	margin-left: 2px;
+	background-position: 0 -60px;
+}
+
+.widgToolbar li.on a, .widgToolbar li.on a:hover
+{
+	background-position: 0 -60px;
+}
+
+.widgToolbar li.widgEditButton
+{
+	background-image: url(../img/widgeditor_button_shadow.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.widgButtonBold
+{
+	background-image: url(../img/widgeditor_button_bold.png);
+}
+
+.widgButtonHTML
+{
+	background-image: url(../img/widgeditor_button_html.png);
+}
+
+.widgButtonImage 
+{
+	background-image: url(../img/widgeditor_button_image.png);
+}
+
+.widgButtonItalic 
+{
+	background-image: url(../img/widgeditor_button_italic.png);
+}
+
+.widgButtonLink
+{
+	background-image: url(../img/widgeditor_button_link.png);
+}
+
+.widgButtonOrdered
+{
+	background-image: url(../img/widgeditor_button_ordered.png);
+}
+
+.widgButtonUnordered
+{
+	background-image: url(../img/widgeditor_button_unordered.png);
+}
+
+.widgSource a
+{
+	background-image: url(../img/widgeditor_button_empty.png);
+	cursor: default;
+}
+
+.widgSource li.on a, .widgSource li.on a:hover
+{
+	background-position: 0 0;
+}
+
+.widgSource .widgButtonHTML
+{
+	background-image: url(../img/widgeditor_button_html.png);
+}
+
+.widgSource .widgButtonHTML:hover
+{
+	cursor: pointer;
+}
+
+
+
+
+/* TOOLBAR */
+
+.widgToolbar
+{
+	list-style: none;
+	width: 90%;
+	height: 48px;
+	margin: 0;
+	padding: 0 0 0 2px;
+	border:none;
+	background-image:none;
+}
+
+* html .widgToolbar
+{
+	width: auto;
+}
+
+.widgToolbar li
+{
+	display: inline;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-top: 9px;
+	line-height: 50px;
+}
+#bio_writeupWidgToolbarSelectBlock, #port_descriptionWidgToolbarSelectBlock, #gallery_captionWidgToolbarSelectBlock, #blog_writeupWidgToolbarSelectBlock
+{
+	border:none;
+	background:#F33;
+	width:150px;
+	font-weight:bold;
+	font-family:myFirstFont;
+	height:30px;
+}
+
+
+
+
+/* EDITING AREA */
+
+.widgIframe
+{
+	clear: left;
+	color:#FFF;
+	width: 100%;
+	height: 200px;
+	border:none;
+}
+
+#knowledgebaseBodyWidgToolbarButtonBold, #knowledgebaseBodyWidgToolbarButtonOrdered, #knowledgebaseBodyWidgToolbarButtonUnordered, #knowledgebaseBodyWidgToolbarButtonLink, #knowledgebaseBodyWidgToolbarButtonItalic, .widgButtonUnordered, .widgButtonLink, .widgButtonOrdered, .widgButtonLink, .widgEditButton, .widgEditSelect, .widgEditSelect{
+	width:20px;
+	font-size:0;
+	margin:1px;
+}
+
+/* EDITOR CONTAINER */
+{
+	width:10px;
+}
+.widgContainer
+{
+	width: 100%;
+	background:#FFF;
+}
